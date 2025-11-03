@@ -1,31 +1,44 @@
 h1{
     text-align: center;
-
-    color: #333333;
-
+    font-size: 50px;
 }
 
-h2{
-    text-align: center;
-    font-size: 40px;
-
-    color: #666666;
-
+#heading1{
+    color: rgb(236, 28, 5);
 }
 
-#new{
-    text-align: center;
-    font-size: 35px;
-    background-color: #333333;
-
-    color: #999999;
-
+.paragraph{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.ting{
-    text-align: justify;
-    font-size: 20px;
-
-    color: #444444;
-
+#vip{
+    background-color: antiquewhite;
+    display: flex;
+    margin: 80px;
+    padding: 30px;
+    border-radius: 20px;
 }
+
+
+
+#vip:hover{
+    background-color: rgb(71, 134, 189);
+}
+
+#vip img{
+    margin-right: 40px;
+    border-radius: 200px;
+}
+
+#shipping{
+    display: flex;
+    margin: 40px;
+}
+
+#mydiv{
+    margin-left: 40px;
+}
+
+
+

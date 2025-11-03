@@ -1,0 +1,26 @@
+h1{
+    color: #d9111e;
+    font-size: 50px;
+    text-shadow: 8px 8px 8px gray;
+}
+
+button{
+    background-color: #d9111e;
+    color: aliceblue;
+    width: 180px;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: gray;
+    color: #d9111e;
+}
+
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
