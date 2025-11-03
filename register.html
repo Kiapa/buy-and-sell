@@ -1,0 +1,73 @@
+<!>DOCTYPE html><html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page Joyful finds</title>
+
+    <link rel="stylesheet" href="css/register.css">           
+</head>
+<body>
+    <div class="container">
+        <h1>Create an Account</h1>
+        <form action="register.php" method="POST">
+            <legend>Sign up</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br></br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br></br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br></br>
+            <label for = "yob">Birthday</label>
+            <input type="date" id="yob" name="yob" required>
+
+            <br></br>
+
+            <label for ="dt"> Date and <time datetime=""></time></label>
+            <input type="datetime-local" id="dt" name="dt" required>
+            <br></br>
+
+            <label for ="phone"> Phone number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <small>Format: 123-456-7890</small> 
+            <br></br>   
+
+            <label for ="nationality">Select nationality</label>
+            <select id="nationality" name="nationality" required>
+                <option value="" disabled>--Please choose an option--</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+                <option value="Kenyan">Kenyan</option>
+            </select>
+            <br></br>
+            
+            <p>Choose your favorite football team</p>
+            <input type="radio" id="Arsenal" name="football_team" value="Team A" required>
+            <label for="team1">Team A</label><br>       
+            <input type="radio" id="Liverpool" name="football_team" value="Team B" required>
+            <label for="Liverpool">Team B</label><br>
+            <input type="radio" id="Newcastle" name="football_team" value="Team C" required>
+            <label for="Newcastle">Team C</label><br>
+            <input type="radio" id="ManCity" name="football_team" value="Team D" required>
+            <label for="ManCity">Team D</label><br>
+            <br></br>
+            <p>Select web programming languages</p>
+            <input type="checkbox" id="HTML" name="web_languages" value="HTML">
+            <label for="HTML"> HTML</label><br>
+            <input type="checkbox" id="CSS" name="web_languages" value="CSS">
+            <label for="CSS"> CSS</label><br>
+            <input type="checkbox" id="JavaScript" name="web_languages" value="JavaScript">
+            <label for="JavaScript"> JavaScript</label><br>
+            <br></br>
+            <label for ="message">Additional Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
